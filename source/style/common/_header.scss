@@ -1,0 +1,40 @@
+.header {
+  height: 620px;
+  width: 100%;
+  background-image: url('../img/water.jpg');
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+
+.address__list {
+  font-size: 0;
+  padding: 0;
+}
+
+.address__item {
+  display: inline-block;
+  margin-left: 27px;
+  vertical-align: middle;
+}
+
+.address__item__link {
+  display: block;
+}
+
+.address__item-vk .address__item__link {
+  background: url("../img/icons/vk.svg") center no-repeat;
+  width: 31px;
+  height: 31px;
+}
+
+.address__item-gh .address__item__link {
+  background: url("../img/icons/github.svg") center no-repeat;
+  width: 26px;
+  height: 26px;
+}
+
+.address__item-in .address__item__link {
+  background: url("../img/icons/in.svg") center no-repeat;
+  width: 24px;
+  height: 24px;
+}
